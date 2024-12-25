@@ -1,5 +1,4 @@
-#cre : huongdev27
-#zalo : 0362166863
+#Nguyễn Văn Linh 
 import json
 import requests,os,time
 import socket
@@ -155,6 +154,12 @@ headers = {
     'Referer': 'https://app.golike.net/account/manager/tiktok',
 }
 
+
+headers = {
+    'Authorization': 'Bearer <your_token>',
+    'Content-Type': 'application/json'
+
+}
 
 def chonacc():
   json_data = {}
